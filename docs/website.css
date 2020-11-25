@@ -1,0 +1,67 @@
+h1 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #265189;
+    font-weight: 700;
+}
+
+img {
+    border-radius: 25px;
+    margin-right: 10px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.image_holder {
+    padding-right: 20px;
+}
+
+.nunito {
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+    padding-top: 9%;
+}
+
+.icons {
+    color: #283C6A;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%)}
+.btn-grad {
+    margin-top: 10px;
+    margin-right: 10px;
+   text-align: center;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   font-family: 'Nunito', sans-serif;
+   font-size: 16px;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+.dark {
+    border-color: #283C6A;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
+.margin {
+    margin: 10px;
+}
+
+button {
+    padding: 0;
+}
