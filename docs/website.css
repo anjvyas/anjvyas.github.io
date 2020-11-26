@@ -1,7 +1,6 @@
 h1 {
     font-family: 'Zilla Slab Highlight', cursive;
     color: #265189;
-    font-weight: 700;
 }
 
 img {
@@ -10,7 +9,7 @@ img {
 }
 
 .jumbotron {
-    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    background-image: linear-gradient(120deg, #a7cbfc 0%, #c2e9fb 100%);
 }
 
 .image_holder {
@@ -20,7 +19,7 @@ img {
 .nunito {
     font-family: 'Nunito', sans-serif;
     color: #333333;
-    padding-top: 9%;
+    padding-top: 2%;
 }
 
 .icons {
@@ -53,15 +52,138 @@ img {
     border-color: #283C6A;
 }
 
+.blue {
+    border-color: #a7cbfc;
+}
+
 .responsive {
     width: 100%;
     height: auto;
 }
 
-.margin {
+.margin-icons {
     margin: 10px;
 }
 
-button {
-    padding: 0;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.nunito2 {
+    font-family: 'Nunito', sans-serif;
+    color: #333333;
+    font-size: 18px;
+    white-space: initial;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
+.teal {
+    /* font-family: 'Nunito', sans-serif; */
+    color: #009999;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.purple {
+    /* font-family: 'Nunito', sans-serif; */
+    color: #3d0099;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.csf1 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #333333;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.csf2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #de0225;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.spir {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #0196bb;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.eecs {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color:  #f4d443;
+    background-color:#265289;
+    width: 91px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.lb {
+    font-family: 'Nunito', sans-serif;
+    color: steelblue;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.confetti { 
+    border-radius: 25px;
+    width: 300px;
+    height: 400px;
+    background-image: url("images/confetti1.JPG"); 
+    background-size: 300px 400px;
+} 
+
+.confetti:hover { 
+    background-image: url("images/confetti2.JPG"); 
+}   
+
+#eecs376:hover {
+    content: url('images/3763.jpg');
+    width: 100%;
+    height: auto;
+}
+
+#csf1:hover {
+    content: url('images/csf2.jpg');
+    width: 100%;
+    height: auto;
+}
+
+#csf2:hover {
+    content: url('images/csf4.png');
+    width: 100%;
+    height: auto;
+}
+
+#spir1:hover {
+    content: url('images/spir2.png');
+    width: 100%;
+    height: auto;
+}
+
+#spir2:hover {
+    content: url('images/spir4.png');
+    width: 100%;
+    height: auto;
+}
+
+#covid:hover {
+    content: url('images/covid2.png');
+    width: 100%;
+    height: auto;
+}
+
+#vpn:hover {
+    content: url('images/vpn2.png');
+    width: 100%;
+    height: auto;
 }
