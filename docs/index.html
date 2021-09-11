@@ -24,6 +24,7 @@
   <body>    
       
       <div class="container">
+
         <div class="jumbotron">
             <div class="container">
                 <h1 style="color: #283C6A" class="display-4">Hello! I'm Anjali</h1>
@@ -54,7 +55,6 @@
                     </div>
             </div>
           </div>
-
 
           <div class="container nunito2">
             <h1>Some Projects</h1>
@@ -112,7 +112,7 @@
       
               <div class="col-lg-4 col-sm-6">
                 <div style="margin-bottom: 40px;">
-                  <img id="feedbee1" style="width: 100%; height: auto;" src="images/feedbeesoundwave.png" alt="">
+                  <img id="feedbee1" style="width: 100%; height: auto;" src="images/feedbeesoundwave.png" title="Hover on the images"/>
                   <div id="chart"></div>
                 </div>
                 <div style="margin-bottom: 40px">
@@ -190,7 +190,7 @@
     </div>
 
       <hr class="blue">
-      
+
       <div class="container nunito2">
         <h1>Teaching</h1>
       <div class="row" style="width: 90%;">
@@ -272,6 +272,12 @@
             colors: color_obj,
             type : 'pie',
         }
+      });
+
+      $('#feedbee1').tooltip('show');
+
+      $('#feedbee1').hover(function() {
+        document.getElementById('feedbee1').setAttribute("data-original-title", "Yay!");
       });
     </script>
   </body>
