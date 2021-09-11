@@ -13,6 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Nunito&family=Sunshiney&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Load c3.css -->
+    <link href="./c3.css" rel="stylesheet">
+    <!-- Load d3.js and c3.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="./c3.min.js"></script>
+
   </head>
   <body>    
       
@@ -23,82 +30,58 @@
                     <div class="image_holder" style="width: 30%; float:left">
                         <img class="responsive" width="250" src="images/anjali.png" alt="">
                         <div class="text-center">
+                          <button type="button" onclick="window.open('mailto:av379@cornell.edu', '_blank')" class="text-center btn btn-grad" style="float:left; display: inline-block">
+                            <i class="fas fa-2x fa-envelope"></i> 
+                          </button>
                             <button type="button" onclick="window.location.href='https://twitter.com/anjvyas'" class="text-center btn btn-grad" style="float:left; display: inline-block">
-                                <i class="fab fa-2x fa-twitter"></i> Twitter
+                                <i class="fab fa-2x fa-twitter"></i>
                             </button>
                             <button onclick="window.location.href='https://www.linkedin.com/in/anjali-vyas/'" type="button" class="text-center btn btn-grad" style="float:left; display: inline-block">
-                                <i class="fab fa-2x fa-linkedin"></i> LinkedIn
+                                <i class="fab fa-2x fa-linkedin"></i>
                             </button>
                         </div>
                     </div>
                     <div class="nunito">
-                        <p class="lead">I am an incoming Information Science Master's student at Cornell Tech. Previously, I majored in Computer Science at the University of Michigan and was a member of <a href="https://lab.ensa.fi/">Professor Roya Ensafi's research lab</a>.</p>
+                        <p class="lead">I am a Master's student in <a  href="https://tech.cornell.edu/programs/masters-programs/jacobs-technion-cornell-dual-ms-connective-media/">Information Science and Information Systems</a> at Cornell Tech. Previously, I majored in Computer Science at the University of Michigan and was a member of <a href="https://lab.ensa.fi/">Professor Roya Ensafi's research lab</a>.</p>
                         <hr class="my-4 dark">
-                        <p>I like working on projects focusing on social good!</p>
+                        <p>I enjoy interacting with people, understanding their challenges and absolutely love building things, especially those that can help make people happier in small and big ways! </p>
                         <div class="icons text-center">
                             <i class="margin-icons fas fa-smile-beam fa-5x"></i>
                             <i class="margin-icons fas fa-globe-americas fa-5x"></i>
                             <i class="fas fa-5x fa-heartbeat"></i>
                         </div>
-                        <p> In my free time I enjoy drawing, videogaming with my younger brother and listening to instrumental music. My favorite food is palak paneer but I also like to eat tacos every Tuesday. I am from Ahmedabad, India.</p>
+                        <p> In my free time I enjoy drawing, videogaming with my younger brother and listening to instrumental music. I also love tacos.</p>
                     </div>
             </div>
           </div>
 
-
-          <div class="container nunito2">
-              <h1>Research</h1>
-            <div class="row" style="width: 90%;">
-                <div class="col-lg-8 col-sm-6">
-                    <h1 class="teal">COVID-19 Censorship Research</h1>
-                    <div class="margin-top">
-                        <a href="https://www.censoredplanet.org/">Censored Planet</a> is one of the projects led by Professor Roya Ensafi which focuses on 
-                        remotely measuring and analyzing Internet censorship on different layers by using, developing and refining tools such 
-                        as Satellite and Hyper Quack.
-                    </div>
-                    <div class="margin-top">
-                        During the pandemic, there has been a significant increase in the spread of misinformation which can be especially harmful
-                        given how peoples' misguided views on how to curb the spread of the illness or whether it actually exists could lead them to behave in
-                        ways that directly harm others. This has given a reason to authorities for <a href="https://fee.org/articles/the-censorship-of-covid-19-data-around-the-world/">increasing Internet and media censorship</a>. 
-
-                        I was part of a team consisting of Ramakrishnan Sundara Raman, Nicholas Ceccio, Prerana Shenoy and Philipp Lutscher 
-                        which analyzed Internet censorship specific to the COVID-19 pandemic using the tools Satellite (measures DNS layer censorship) 
-                        and Quack (measures application layer censorship).
-                    </div>
-                    <div class="margin-top">
-                        Thanks to the hard work of my awesome team, we were able to compile our findings into a paper which we submitted recently.
-                    </div>
-
-                    <h1 class="purple">Virtual Private Network (VPN) Research</h1>
-                    <div class="margin-top">
-                        I am currently part of the <a href="https://vpnalyzer.org/">VPNalyzer</a> project also led by Professor Ensafi, which aims to grow transparency and trust in the VPN ecosystem. We want to do this 
-                        by understanding the challenges VPN users face while choosing and using VPNs, developing methodical and automated assessments of VPN performance and
-                        understanding the rationale of VPN providers when they design and market their products. I am focusing on the aspects of this project which involve surveys along
-                        with Reethika Ramesh.
-                    </div>
-        
-                </div>
-
-                <div class="col-lg-4 col-sm-6">
-                    <img id="covid" style="width: 100%; height: auto;" src="images/covid1.png" alt="">
-                    <img id="vpn" style="width: 100%; height: auto;" src="images/vpn1.png" alt="">
-                </div>
-            </div>
-          </div>
-
-          <hr class="blue">
 
           <div class="container nunito2">
             <h1>Some Projects</h1>
           <div class="row" style="width: 90%;">
               <div class="col-lg-8 col-sm-6">
-                <span class="csf1">CSF Global </span><span class="csf2"> Partnership</span>
+
+                <h1><span class="feedbee1">Feed</span><span class="feedbee2">Bee</span></h1>
                 <div class="margin-top">
-                    I am currently a project lead (along with the amazing Julia Ring) for <a href="http://mheal.engin.umich.edu/csfglobal">CSF Global Partnership</a>, a student-run project team. 
+                 Recently, I've been subscribing to more and more newsletters. It's a great way to learn about <a href="https://unicorner.news/">cool new products</a>, <a href="https://www.factoftheday1.com/">ideas</a> and all kinds
+                 of interesting things! Newsletters are meant to spark thoughts and discussion, however, it's currently a one way street. Writers share their content
+                 but often have very little knowledge of what their readers think of it. Me and 4 of my friends want to change that! So we decided to build <a href="https://welcome.tryfeedbee.com/">FeedBee</a> to help newsletter writers get better feedback.
+                </div> 
+
+                <div class="margin-top">
+                  We wanted to make the process more direct for readers by allowing them to voice their thoughts through links in the newsletters themselves! 
+                  Their click directly records their 'vote' in our database and then sends them to a form where they can provide more personal insights. We also wanted to 
+                  present all this data to writers in an organized manner with engaging charts and dashboards. 
+                  On the team, I interview newsletter writers to understand their needs and also do some design stuff but am primarily working on developing the software. We recently launched on <a href="https://www.producthunt.com/posts/feedbee">product hunt</a> and got 7 customers on our free trial! :)
+                  We have a long way to go and I am excited to work on awesome new features and improve FeedBee with my incredible team! 
+                </div>
+
+                <h1><span class="csf1">CSF Global </span><span class="csf2"> Partnership</span></h1>
+                <div class="margin-top">
+                    I was the project lead (along with the amazing Julia Ring) for <a href="http://mheal.engin.umich.edu/csfglobal">CSF Global Partnership</a>, a student-run project team. 
                     Our team formed when Dr. Tasneem Karim, a researcher at an NGO, <a href="https://csf-global.org/">CSF Global</a> reached out to collaborate on a project 
                     that aims to empower children with Cerebral Palsy in Bangladesh. We conducted a <a href="https://global.umich.edu/newsroom/study-abroad-u-m-top-among-big-ten-universities/">needs assessment</a> in Sirajganj, Bangladesh in Summer 2019 to better understand the day to
-                    day challenges faced by children with Cerebral Palsy and their caregivers. Leading up to this we spent most of our time understanding
-                    Cerebral Palsy, existing assistive technologies and therapy for it and the culture of Bangladesh. We met with Bangladeshi nutrition
+                    day challenges faced by children with Cerebral Palsy and their caregivers. We met with Bangladeshi nutrition
                     experts such as Dr. Khurshid Talukder and Moushumi Khan, who is a UofM alumna and runs the NGO Foundation for Charitable
                     Activities in Bangladesh (FCAB), before and during our needs assessment trip to gain more insights into the challenges and how we can make our future intervention effective. 
                 </div>
@@ -106,13 +89,10 @@
                     Several families mentioned difficulty feeding their child and that their child was unable to feed themselves. 
                     We also observed mothers feeding their children during therapy sessions, instead of the child working to feed 
                     themselves. Children with Cerebral palsy also have a higher incidence of malnutrition because they have difficulty 
-                    chewing and swallowing. Improving a child’s ability to self-feed will help to establish their independence and also 
-                    improve their upper extremity motor function, which will be applicable to other areas of life. 
+                    chewing and swallowing. 
                 </div>
                 <div class="margin-top">
-                    This is why our team decided to focus on alleviating the childrens’ feeding and nutritional problems. 
-                    Currently we have an education subteam and an assistive device subteam. 
-                    The education subteam is working to create an information booklet that allows caregivers to easily access posture tips, 
+                    This is why our team decided to focus on alleviating the childrens’ feeding and nutritional problems. The education subteam is working to create an information booklet that allows caregivers to easily access posture tips, 
                     ways to modify the texture of food and recipes for affordable food that is best suited for children 
                     who have Cerebral palsy. Whereas the assistive device subteam is working to create an assistive plate and glove 
                     that makes it easier for children with Cerebral palsy to feed independently.
@@ -131,42 +111,16 @@
               </div>
       
               <div class="col-lg-4 col-sm-6">
-                <img id="csf1" style="width: 100%; height: auto;" src="images/csf1.jpg" alt="">
-                <img id="csf2" style="width: 100%; height: auto;" src="images/csf3.jpg" alt="">
+                <div style="margin-bottom: 40px;">
+                  <img id="feedbee1" style="width: 100%; height: auto;" src="images/feedbeesoundwave.png" alt="">
+                  <div id="chart"></div>
+                </div>
+                <div style="margin-bottom: 40px">
+                  <img id="csf1" style="width: 100%; height: auto;" src="images/csf1.jpg" alt="">
+                  <img id="csf2" style="width: 100%; height: auto;" src="images/csf3.jpg" alt="">
+                </div>
                 <img id="spir1" style="width: 100%; height: auto;" src="images/spir1.png" alt="">
                 <img id="spir2" style="width: 100%; height: auto;" src="images/spir3.png" alt="">
-              </div>
-          </div>
-        </div>
-
-        <hr class="blue">
-
-        <div class="container nunito2">
-            <h1>Teaching</h1>
-          <div class="row" style="width: 90%;">
-              <div class="col-lg-8 col-sm-6">
-                <h1 class="eecs">EECS 376</h1>
-                  <div class="margin-top">
-                    I taught EECS 376: Foundations of Computer Science as an Instructional Aide in:
-                    <ul>
-                    <li>Winter 2020 with Prof. Amir Kamil and Ilya Volkovich</li>
-                    <li>Summer 2020 with Prof. Mark Brehob</li>
-                    <li>Fall 2020 again with Prof. Kamil and Volkovich</li>
-                    </ul>
-                    My responsibilities include teaching a discussion section, holding office hours, answering students’ questions on Piazza, 
-                    creating homework questions and exam questions based on lecture and discussion material on a rotational basis. In Summer 2020, 
-                    I was also the course admin. I love motivating students and helping them feel less confused!
-                    </div>
-                    
-                    <div class="margin-top">
-                        EECS 376 is an introduction to theory of computation. 
-                        Course topics include algorithmic design paradigms and analysis, Turing machines, polynomial time computability, 
-                        computational complexity with an emphasis on NP-hardness, coping with intractability, randomness in computation, and cryptography. 
-                    </div> 
-                </div>
-       
-              <div class="col-lg-4 col-sm-6">
-                  <img id="eecs376" style="width: 100%; height: auto;" src="images/3761.jpg" alt="">
               </div>
           </div>
         </div>
@@ -178,23 +132,96 @@
         <div class="row" style="width: 90%;">
             <div class="col-lg-8 col-sm-6">
               <div class="margin-top">
-                  In Summer 2019, I interned at Gumro and Associates in Auburn Hills, Michigan. Before this, I barely knew Web Development but working with the
-                  other interns on real company projects, I was able to grasp a lot in a short time!
-
-                  I created two web applications from scratch with the help of <a href="https://www.udemy.com/course/the-web-developer-bootcamp/">this stellar course</a>. The first one was used to connect 
-                  customers with transporters in the most efficient way using bidding and the second one was a location tracker to 
-                  assign trips to transporters and track deliveries. This helped the company keep track of deliveries that are running 
-                  late in a much easier way than having to call transporters up while they are driving which was also potentially dangerous.
+                  This past summer, I interned at Evolve Education. I worked with my team to design and implement a system for school children to help them with goal-setting, forming positive habits,
+                  and improving their well-being and cognitive health (especially during the pandemic).
+              </div>
+              <div class="margin-top">
+                It was an incredible to learn just how much thinking needs to go into making a system for real people - understanding their needs and brainstorming the
+                best ways to tackle them was very enjoyable. I was able to dabble in design using Figma, and also did some research into gamification but I primarly worked
+                on software development using Laravel (a PHP framework). I implemented functions to make custom charts using p5.js to represent data in a more fun and easy to parse way. I also used Chart.js to create
+                interactive charts. I also implemented a calendar and todo list system!
               </div>
             </div>
 
             <div class="col-lg-4 col-sm-6">
-              <img id="gna" style="width: 100%; height: auto;" src="images/gna.jpeg" alt="">
+              <img id="evolve" style="width: 80%; height: auto;" src="images/evolve.jpg" alt="">
+              <img id="evolve2" style="width: 80%; height: auto;" src="images/evolve3.png" alt="">
             </div>
         </div>
       </div>
 
       <hr class="blue">
+
+      <div class="container nunito2">
+        <h1>Research</h1>
+      <div class="row" style="width: 90%;">
+          <div class="col-lg-8 col-sm-6">
+              <h1 class="teal">COVID-19 Censorship Research</h1>
+              <div class="margin-top">
+                  <a href="https://www.censoredplanet.org/">Censored Planet</a> is one of the projects led by Professor Roya Ensafi which focuses on 
+                  remotely measuring and analyzing Internet censorship on different layers by using, developing and refining tools such 
+                  as Satellite and Hyper Quack.
+              </div>
+              <div class="margin-top">
+                  During the pandemic, there has been a significant increase in the spread of misinformation which can be especially harmful
+                  given how peoples' misguided views on how to curb the spread of the illness or whether it actually exists could lead them to behave in
+                  ways that directly harm others. This has given a reason to authorities for <a href="https://fee.org/articles/the-censorship-of-covid-19-data-around-the-world/">increasing Internet and media censorship</a>. 
+
+                  I was part of a team which analyzed Internet censorship specific to the COVID-19 pandemic using the tools Satellite (measures DNS layer censorship) 
+                  and Quack (measures application layer censorship).
+              </div>
+              <div class="margin-top">
+                  Thanks to the hard work of my awesome team, we were able to compile our findings into a <a href="https://censoredplanet.org/assets/covid.pdf">paper</a> which was accepted to the <a href="https://www.youtube.com/watch?v=6_gzdp7zSaw&feature=youtu.be">2021 Financial Cryptography and Data Security Conference</a>.
+              </div>
+
+              <h1 class="purple">Virtual Private Network (VPN) Research</h1>
+              <div class="margin-top">
+                  I was part of the <a href="https://vpnalyzer.org/">VPNalyzer</a> project also led by Professor Ensafi, which aims to grow transparency and trust in the VPN ecosystem. I tested the desktop app (VPNalyzer) empowering users to analyze the performance of their VPNs themselves. I also developed and
+                  pretested a user survey taken by over 1000 VPN users to understand their needs and challenges while working with Consumer Reports.
+              </div>
+  
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+              <img id="covid" style="width: 100%; height: auto;" src="images/covid1.png" alt="">
+              <img id="vpn" style="width: 100%; height: auto;" src="images/vpn1.png" alt="">
+          </div>
+      </div>
+    </div>
+
+      <hr class="blue">
+      
+      <div class="container nunito2">
+        <h1>Teaching</h1>
+      <div class="row" style="width: 90%;">
+          <div class="col-lg-8 col-sm-6">
+            <h1 class="eecs">EECS 376</h1>
+              <div class="margin-top">
+                I taught EECS 376: Foundations of Computer Science as an Instructional Aide in:
+                <ul>
+                <li>Winter 2020 with Prof. Amir Kamil and Ilya Volkovich</li>
+                <li>Spring 2020 with Prof. Mark Brehob</li>
+                <li>Fall 2020 again with Prof. Kamil and Volkovich</li>
+                </ul>
+                My responsibilities included teaching a discussion section, holding office hours, answering students’ questions on Piazza, 
+                creating homework questions and exam questions based on lecture and discussion material on a rotational basis. In Spring 2020, 
+                I was also the course admin. I love motivating students and helping them feel less confused!
+                </div>
+                
+                <div class="margin-top">
+                    EECS 376 is an introduction to theory of computation. 
+                    Course topics include algorithmic design paradigms and analysis, Turing machines, polynomial time computability, 
+                    computational complexity with an emphasis on NP-hardness, coping with intractability, randomness in computation, and cryptography. 
+                </div> 
+            </div>
+   
+          <div class="col-lg-4 col-sm-6">
+              <img id="eecs376" style="width: 100%; height: auto;" src="images/3761.jpg" alt="">
+          </div>
+      </div>
+    </div>
+
+    <hr class="blue">
 
         <div class="container nunito2">
             <h1>Random</h1>
@@ -226,8 +253,27 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://kit.fontawesome.com/45700d8303.js" crossorigin="anonymous"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+      const color_arr = ["#065a70", "#518895", "#8db8bc", "#cbe9e8"];
+
+      var color_obj = {'Bad': color_arr[3], 'Meh': color_arr[2], 'Good': color_arr[1], 'Awesome': color_arr[0]};
+      var chart = c3.generate({
+        data: {
+            bindto: '#chart',
+            columns: [
+                ['Awesome', 60],
+                ['Good', 20],
+                ['Meh', 10],
+                ['Bad', 10],
+            ],
+            colors: color_obj,
+            type : 'pie',
+        }
+      });
+    </script>
   </body>
+
 </html>

@@ -118,6 +118,20 @@ img {
     font-size: 22px;
 }
 
+.feedbee1 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #3F270D;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.feedbee2 {
+    font-family: 'Zilla Slab Highlight', cursive;
+    color: #E0A232;
+    font-weight: 700;
+    font-size: 22px;
+}
+
 .eecs {
     font-family: 'Zilla Slab Highlight', cursive;
     color:  #f4d443;
@@ -184,6 +198,24 @@ img {
 
 #vpn:hover {
     content: url('images/vpn2.png');
+    width: 100%;
+    height: auto;
+}
+
+#evolve:hover {
+    content: url('images/evolve2.jpg');
+    width: 100%;
+    height: auto;
+}
+
+#evolve2:hover {
+    content: url('images/evolve4.png');
+    width: 100%;
+    height: auto;
+}
+
+#feedbee1:hover {
+    content: url('images/feedbeesoundwave2.png');
     width: 100%;
     height: auto;
 }
