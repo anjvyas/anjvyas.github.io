@@ -161,6 +161,24 @@ img {
     background-size: 300px 400px;
 } 
 
+.evolve {
+    color: #e55c00;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.tt {
+    color: #009fda;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.doodle {
+    color: #ff6699;
+    font-weight: 700;
+    font-size: 22px;
+}
+
 .confetti:hover { 
     background-image: url("images/confetti2.JPG"); 
 }   
@@ -219,8 +237,32 @@ img {
     height: auto;
 }
 
+#thumbtack:hover {
+    content: url('images/tt3.png');
+    width: 100%;
+    height: auto;
+}
+
+#thumbtack2:hover {
+    content: url('images/tt4.png');
+    width: 100%;
+    height: auto;
+}
+
 #feedbee1:hover {
     content: url('images/feedbeesoundwave2.png');
+    width: 100%;
+    height: auto;
+}
+
+#doodle1:hover {
+    content: url('images/doodle2.png');
+    width: 100%;
+    height: auto;
+}
+
+#doodle2:hover {
+    content: url('images/doodle4.png');
     width: 100%;
     height: auto;
 }

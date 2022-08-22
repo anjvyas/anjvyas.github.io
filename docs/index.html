@@ -61,19 +61,35 @@
           <div class="row" style="width: 90%;">
               <div class="col-lg-8 col-sm-6">
 
+                <h1 class="doodle">Human-Style Doodle Generation</h1>
+                <div class="margin-top">
+                  I've always found animation, especially hand-drawn animation and doodles to be so enchanting because they have the power to
+                  convey stories and worlds that we simply cannot capture through another medium. This is why for the final project
+                  of my Deep Learning class, I partnered with another Master's student to explore the generation of human-style doodles. I
+                  came across the <a href="https://quickdraw.withgoogle.com">Google Quickdraw game</a>, found it to be very amusing and was excited to do something with its <a href="https://github.com/googlecreativelab/quickdraw-dataset">publicly available data</a>.
+                </div> 
+
+                <div class="margin-top">
+                  Usually image generation in machine learning makes use of pixel based representations of images, but past work in drawing generation
+                  in particular has taken a vector based approach where images are represented as sequences of points instead given the dynamic nature
+                  of drawings. We found this to be a fascinating approach and explored different existing models that used it. Most of them were highly complex even
+                  though they produced good results. This motivated us to develop and test 4 different simple architectures that incorporate GANs 
+                  and RNNs with vector based representations of sketches.
+                </div>
+
                 <h1><span class="feedbee1">Feed</span><span class="feedbee2">Bee</span></h1>
                 <div class="margin-top">
                  Recently, I've been subscribing to more and more newsletters. It's a great way to learn about <a href="https://unicorner.news/">cool new products</a>, <a href="https://www.factoftheday1.com/">ideas</a> and all kinds
                  of interesting things! Newsletters are meant to spark thoughts and discussion, however, it's currently a one way street. Writers share their content
-                 but often have very little knowledge of what their readers think of it. Me and 4 of my friends want to change that! So we decided to build <a href="https://app.tryfeedbee.com/">FeedBee</a> to help newsletter writers get better feedback.
+                 but often have very little knowledge of what their readers think of it. Me and 4 of my friends wanted to change that! So we decided to build <a href="https://app.tryfeedbee.com/">FeedBee</a> to help newsletter writers get better feedback.
                 </div> 
 
                 <div class="margin-top">
                   We wanted to make the process more direct for readers by allowing them to voice their thoughts through links in the newsletters themselves! 
                   Their click directly records their 'vote' in our database and then sends them to a form where they can provide more personal insights. We also wanted to 
                   present all this data to writers in an organized manner with engaging charts and dashboards. 
-                  On the team, I interview newsletter writers to understand their needs and also do some design stuff but am primarily working on developing the software. We recently launched on <a href="https://www.producthunt.com/posts/feedbee">product hunt</a> and got 7 customers on our free trial! :)
-                  We have a long way to go and I am excited to work on awesome new features and improve FeedBee with my incredible team! 
+                  On the team, I interviewed newsletter writers to understand their needs and also did some design stuff but primarily worked on developing the software. We launched on <a href="https://www.producthunt.com/posts/feedbee">product hunt</a> and got 7 customers on our free trial! :)
+                  I enjoyed working on awesome new features and improving FeedBee with my incredible team! 
                 </div>
 
                 <h1><span class="csf1">CSF Global </span><span class="csf2"> Partnership</span></h1>
@@ -106,11 +122,14 @@
                     have any way of checking up on them. This problem is worse for young children who may get bored easily. Enter: the Spirelephant!
                     It uses the patients' breaths as input to the game to control the on screen character Elly the elephant who completes various
                     tasks to help out her animal friends. I had a lot of fun creating the art for the game!
-
                 </div> 
               </div>
       
               <div class="col-lg-4 col-sm-6">
+                <div style="margin-bottom: 40px;">
+                  <img id="doodle2" style="width: 100%; height: auto;" src="images/doodle3.png"/>
+                  <img id="doodle1" style="width: 100%; height: auto;" src="images/doodle1.png"/>
+                </div>
                 <div style="margin-bottom: 40px;">
                   <img id="feedbee1" style="width: 100%; height: auto;" src="images/feedbeesoundwave.png" title="Hover on the images"/>
                   <div id="chart"></div>
@@ -128,11 +147,28 @@
         <hr class="blue">
 
         <div class="container nunito2">
-          <h1>Internship</h1>
+        <h1>Internships</h1>
         <div class="row" style="width: 90%;">
             <div class="col-lg-8 col-sm-6">
+              <h1 class="tt">Thumbtack</h1>
               <div class="margin-top">
-                  This past summer, I interned at Evolve Education. I worked with my team to design and implement a system for school children to help them with goal-setting, forming positive habits,
+                This past summer, I was a Software Engineer Intern at Thumbtack!
+
+                I worked on the frontend of the Empty Pro List experiment which aimed to increase the odds of customers finding a pro that can match
+                their needs. When customers apply too many filters or the search is in a low supply zone, Thumbtack showed a message
+                saying there were no exact matches. With this experiment, we sought to change this by displaying close matches that could
+                still potentially get the job done (along with a section that clearly showed what each pro lacked). I also added functionality that encouraged
+                customers to remove filters and reload the pro list to loosen the search criteria in the case where there are only one or two perfect matches.
+              </div> 
+
+              <div class="margin-top">
+                I loved contributing to a platform that empowers people and allows them to pursue their unique passions while reducing their stress about where their next paycheck
+                will come from.
+              </div>
+
+              <h1 class="evolve">Evolve Education</h1>
+              <div class="margin-top">
+                  In summer 2021, I interned at Evolve Education. I worked with my team to design and implement a system for school children to help them with goal-setting, forming positive habits,
                   and improving their well-being and cognitive health (especially during the pandemic).
               </div>
               <div class="margin-top">
@@ -144,8 +180,16 @@
             </div>
 
             <div class="col-lg-4 col-sm-6">
-              <img id="evolve" style="width: 80%; height: auto;" src="images/evolve.jpg" alt="">
-              <img id="evolve2" style="width: 80%; height: auto;" src="images/evolve3.png" alt="">
+              <div class="margin-top">
+                <img id="thumbtack" style="width: 80%; height: auto;" src="images/tt1.png" alt="">
+              </div>
+              <div class="margin-top">
+                <img id="thumbtack2" style="width: 80%; height: auto;" src="images/tt2.png" alt="">
+              </div>
+              <div class="margin-top">
+                <img id="evolve" style="width: 80%; height: auto;" src="images/evolve.jpg" alt="">
+                <img id="evolve2" style="width: 80%; height: auto;" src="images/evolve3.png" alt="">
+              </div>
             </div>
         </div>
       </div>
@@ -176,8 +220,9 @@
 
               <h1 class="purple">Virtual Private Network (VPN) Research</h1>
               <div class="margin-top">
-                  I was part of the <a href="https://vpnalyzer.org/">VPNalyzer</a> project also led by Professor Ensafi, which aims to grow transparency and trust in the VPN ecosystem. I tested the desktop app (VPNalyzer) empowering users to analyze the performance of their VPNs themselves. I also developed and
-                  pretested a user survey taken by over 1000 VPN users to understand their needs and challenges while working with Consumer Reports.
+                  I am part of the <a href="https://vpnalyzer.org/">VPNalyzer</a> project also led by Professor Ensafi, which aims to grow transparency and trust in the VPN ecosystem.
+                  I developed and pretested a user survey taken by over 1000 VPN users to understand their needs and challenges while working with Consumer Reports. I also helped analyze
+                  my team's interviews with popular VPN providers to understand misalignments between them and users. Our paper was recently accepted to USENIX Security 2023 🎉
               </div>
   
           </div>
